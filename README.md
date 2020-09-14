@@ -9,6 +9,14 @@ xpack version: 2.8.0-9
 
 ---
 
+### test environment:
+
+Raspberry pi 4 + ubuntu 20.04
+
+x86-64 + ubuntu 20.04 
+
+---
+
 ### install
 bash install.sh
 

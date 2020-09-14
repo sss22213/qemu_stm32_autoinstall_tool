@@ -123,8 +123,6 @@ else
 
   # ----- Build the GNU/Linux 64-bit distribution. ----------------------------
 
-  linux_distribution="centos"
-  
   if [ "${DO_BUILD_LINUX64}" == "y" ]
   then
     host_build_target "Creating the GNU/Linux 64-bit distribution..." \
@@ -188,7 +186,7 @@ else
       ${rest[@]-}
   fi
 
-  # ----- Build the GNU/Linux Arm 64-bit distribution. ---------------------------
+  # ----- Build the GNU/Linux Arm 64-bit distribution. ------------------------
 
   if [ "${DO_BUILD_LINUX_ARM64}" == "y" ]
   then
@@ -204,7 +202,7 @@ else
       ${rest[@]-}
   fi
 
-  # ----- Build the GNU/Linux Arm 32-bit distribution. ---------------------------
+  # ----- Build the GNU/Linux Arm 32-bit distribution. ------------------------
 
   if [ "${DO_BUILD_LINUX_ARM32}" == "y" ]
   then
